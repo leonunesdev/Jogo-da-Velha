@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+    background-image: url(../img/gameover.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 0, 0);
+    
+    
+}
+
+input{
+    color: rgb(235, 14, 14);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+input:hover{
+    cursor: pointer;
+    box-shadow: 2px 5px 10px rgb(209, 77, 77);
+    padding: 8px;
+    transition: 0.2s;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid gray;
+    display: inline-block;
+}
+
+.o{ 
+    position: relative;
+}
+
+.o:after{
+    position: absolute;
+    content: "\26AA";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.x{ 
+    position: relative;
+}
+
+.x:after{
+    position: absolute;
+    content: "\274C";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
